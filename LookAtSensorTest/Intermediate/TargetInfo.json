@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LookAtSensorTest",
+			"Path": "D:\\Unreal Projects\\LookAtSensorTest\\Source\\LookAtSensorTest.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LookAtSensorTestEditor",
+			"Path": "D:\\Unreal Projects\\LookAtSensorTest\\Source\\LookAtSensorTestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

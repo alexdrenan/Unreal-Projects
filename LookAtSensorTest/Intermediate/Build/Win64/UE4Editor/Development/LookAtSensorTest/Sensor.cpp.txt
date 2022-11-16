@@ -1,0 +1,3 @@
+D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\Definitions.LookAtSensorTest.h
+D:\Unreal Projects\LookAtSensorTest\Source\LookAtSensorTest\Sensor.h
+D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Inc\LookAtSensorTest\Sensor.generated.h

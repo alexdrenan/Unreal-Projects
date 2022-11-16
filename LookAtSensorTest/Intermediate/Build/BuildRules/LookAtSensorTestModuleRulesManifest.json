@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\LookAtSensorTest\\Source\\LookAtSensorTest\\LookAtSensorTest.Build.cs",
+		"D:\\Unreal Projects\\LookAtSensorTest\\Source\\LookAtSensorTest.Target.cs",
+		"D:\\Unreal Projects\\LookAtSensorTest\\Source\\LookAtSensorTestEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
