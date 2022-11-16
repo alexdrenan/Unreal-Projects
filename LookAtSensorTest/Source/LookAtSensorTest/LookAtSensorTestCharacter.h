@@ -74,8 +74,8 @@ public:
 	UPROPERTY(EditAnywhere)
 		FColor lineColor;
 
-	UPROPERTY(EditAnywhere)
-		[InRange(0f, 1f)];
+	//UPROPERTY(EditAnywhere)
+		//[InRange(0f, 1f)];
 
 	UPROPERTY(EditAnywhere)
 		float preciseness = 0.5f;

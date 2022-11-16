@@ -87,6 +87,10 @@ void EmptyLinkFunctionForGeneratedCodeLookAtSensorTestCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_lineColor;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_preciseness_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_preciseness;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
@@ -235,6 +239,15 @@ void EmptyLinkFunctionForGeneratedCodeLookAtSensorTestCharacter() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_lineColor = { "lineColor", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALookAtSensorTestCharacter, lineColor), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_lineColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_lineColor_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_preciseness_MetaData[] = {
+		{ "Category", "LookAtSensorTestCharacter" },
+		{ "Comment", "//UPROPERTY(EditAnywhere)\n//[InRange(0f, 1f)];\n" },
+		{ "ModuleRelativePath", "LookAtSensorTestCharacter.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere)\n[InRange(0f, 1f)];" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_preciseness = { "preciseness", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALookAtSensorTestCharacter, preciseness), METADATA_PARAMS(Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_preciseness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_preciseness_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -313,6 +326,7 @@ void EmptyLinkFunctionForGeneratedCodeLookAtSensorTestCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_sensor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_lineDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_lineColor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_preciseness,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALookAtSensorTestCharacter_Statics::NewProp_GunOffset,
@@ -348,7 +362,7 @@ void EmptyLinkFunctionForGeneratedCodeLookAtSensorTestCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALookAtSensorTestCharacter, 1921272167);
+	IMPLEMENT_CLASS(ALookAtSensorTestCharacter, 2475083445);
 	template<> LOOKATSENSORTEST_API UClass* StaticClass<ALookAtSensorTestCharacter>()
 	{
 		return ALookAtSensorTestCharacter::StaticClass();

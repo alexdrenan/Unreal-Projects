@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeLookAtSensorTest_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD01DD78B,
+				0x4D04B498,
 				0x8C7ECFFE,
 				METADATA_PARAMS(nullptr, 0)
 			};

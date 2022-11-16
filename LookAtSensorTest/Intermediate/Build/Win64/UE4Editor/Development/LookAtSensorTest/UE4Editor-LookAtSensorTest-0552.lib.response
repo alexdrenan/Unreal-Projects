@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-LookAtSensorTest-0552.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\LookAtSensorTestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTest.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestCharacter.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestGameMode.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestHUD.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestProjectile.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\Sensor.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTest.init.gen.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestCharacter.gen.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestGameMode.gen.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestHUD.gen.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\LookAtSensorTestProjectile.gen.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\Sensor.gen.cpp.obj"
+"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\Default.rc2.res"
+/OUT:"D:\Unreal Projects\LookAtSensorTest\Intermediate\Build\Win64\UE4Editor\Development\LookAtSensorTest\UE4Editor-LookAtSensorTest-0552.lib"
