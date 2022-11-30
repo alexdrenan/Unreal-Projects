@@ -84,32 +84,32 @@ ALookAtSensorTestCharacter::ALookAtSensorTestCharacter()
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
 }
-
+float precisness = 0.5f;
 void ALookAtSensorTestCharacter::Tick(float DeltaTime) 
 {
 	Super::Tick(DeltaTime);
+	//[RANGE(0f, 1f)];
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Black, TEXT("Hey"));
 
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Black, TEXT("Hey"));
-
-	FVector start = GetLocation();
+	FVector playerPos = GetLocation();
 	FVector end = GetSensorLocation();
 	FVector playerLookDir = GetForward();
 
-	FVector playerToTriggerDir = (end - start).GetSafeNormal();
+	FVector playerToTriggerDir = (end - playerPos).GetSafeNormal();
 	playerToTriggerDir.Normalize();
 
-	FVector thing = (playerToTriggerDir, sensor, playerLookDir);
-
+	//FVector thing = (playerToTriggerDir, sensor, playerLookDir);
+	//float preciseness = 0.5f;
 	float lookness = Dot3(playerToTriggerDir, playerLookDir);
 
 	bool isLooking = lookness >= preciseness;
 
 
 	//Sensor to player
-	DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 0.1f);
+	DrawDebugLine(GetWorld(), playerPos, end, FColor::Green, false, 0.1f);
 	//player sightline
-	if (!isLooking) DrawDebugLine(GetWorld(), start, end + playerLookDir * lineDistance, FColor::Magenta, true);
-	else DrawDebugLine(GetWorld(), start, end + playerLookDir * lineDistance, FColor::Emerald, true); 
+	if (!isLooking) DrawDebugLine(GetWorld(), playerPos, end + playerLookDir * lineDistance, FColor::Magenta, true);
+	else DrawDebugLine(GetWorld(), playerPos, end + playerLookDir * lineDistance, FColor::Emerald, true); 
 
 }
 
