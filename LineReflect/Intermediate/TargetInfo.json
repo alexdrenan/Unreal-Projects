@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LineReflect",
+			"Path": "D:\\Unreal Projects\\LineReflect\\Source\\LineReflect.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LineReflectEditor",
+			"Path": "D:\\Unreal Projects\\LineReflect\\Source\\LineReflectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

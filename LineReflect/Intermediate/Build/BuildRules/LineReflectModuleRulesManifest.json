@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\LineReflect\\Source\\LineReflect\\LineReflect.Build.cs",
+		"D:\\Unreal Projects\\LineReflect\\Source\\LineReflect.Target.cs",
+		"D:\\Unreal Projects\\LineReflect\\Source\\LineReflectEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

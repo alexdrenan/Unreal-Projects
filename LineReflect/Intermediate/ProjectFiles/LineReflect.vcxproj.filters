@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LineReflect.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A7CF0547-08F9-4918-A967-36ECE5B60566}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LineReflect.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LineReflectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D110EF2E-E2EF-4FA5-B698-1F03E0D9AF6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LineReflect">
+      <UniqueIdentifier>{332AD3F5-F051-4AF3-BFAA-C0D53BA4AC7E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LineReflect\LineReflect.Build.cs">
+      <Filter>Source\LineReflect</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LineReflect\LineReflect.cpp">
+      <Filter>Source\LineReflect</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LineReflect\LineReflect.h">
+      <Filter>Source\LineReflect</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LineReflect\LineReflectCharacter.cpp">
+      <Filter>Source\LineReflect</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LineReflect\LineReflectCharacter.h">
+      <Filter>Source\LineReflect</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LineReflect\LineReflectGameMode.cpp">
+      <Filter>Source\LineReflect</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LineReflect\LineReflectGameMode.h">
+      <Filter>Source\LineReflect</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LineReflect\LineReflectHUD.cpp">
+      <Filter>Source\LineReflect</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LineReflect\LineReflectHUD.h">
+      <Filter>Source\LineReflect</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LineReflect\LineReflectProjectile.cpp">
+      <Filter>Source\LineReflect</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LineReflect\LineReflectProjectile.h">
+      <Filter>Source\LineReflect</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LineReflect\ReflectWall.cpp">
+      <Filter>Source\LineReflect</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LineReflect\ReflectWall.h">
+      <Filter>Source\LineReflect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

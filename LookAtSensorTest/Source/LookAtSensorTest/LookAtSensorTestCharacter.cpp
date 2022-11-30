@@ -98,9 +98,9 @@ void ALookAtSensorTestCharacter::Tick(float DeltaTime)
 	FVector playerToTriggerDir = (end - start).GetSafeNormal();
 	playerToTriggerDir.Normalize();
 
-	//FVector.Dot thing = (playerToTriggerDir, sensor, playerLookDir);
+	FVector thing = (playerToTriggerDir, sensor, playerLookDir);
 
-	//float lookness = Dot(playerToTriggerDir, playerLookDir);
+	float lookness = Dot3(playerToTriggerDir, playerLookDir);
 
 	bool isLooking = lookness >= preciseness;
 
