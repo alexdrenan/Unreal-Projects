@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TrajectoryProject",
+			"Path": "D:\\Unreal Projects\\TrajectoryProject\\Source\\TrajectoryProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TrajectoryProjectEditor",
+			"Path": "D:\\Unreal Projects\\TrajectoryProject\\Source\\TrajectoryProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

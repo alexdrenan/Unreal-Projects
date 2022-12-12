@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\TrajectoryProject\\Source\\TrajectoryProject\\TrajectoryProject.Build.cs",
+		"D:\\Unreal Projects\\TrajectoryProject\\Source\\TrajectoryProject.Target.cs",
+		"D:\\Unreal Projects\\TrajectoryProject\\Source\\TrajectoryProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

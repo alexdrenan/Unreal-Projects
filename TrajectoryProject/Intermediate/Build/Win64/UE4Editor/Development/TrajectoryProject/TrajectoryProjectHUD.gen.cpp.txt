@@ -1,0 +1,10 @@
+D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\Definitions.TrajectoryProject.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Unreal Projects\TrajectoryProject\Source\TrajectoryProject/TrajectoryProjectHUD.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Inc\TrajectoryProject\TrajectoryProjectHUD.generated.h

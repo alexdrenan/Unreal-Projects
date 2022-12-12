@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TrajectoryProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D8FCD24B-3C36-4D0E-A131-8F1A6924D945}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TrajectoryProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TrajectoryProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8BF7909D-3FF0-45B1-B801-0A775D2BB373}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TrajectoryProject">
+      <UniqueIdentifier>{D8F5ED7F-B708-4F80-A0D9-1493C83D163A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TrajectoryProject\TrajectoryProject.Build.cs">
+      <Filter>Source\TrajectoryProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TrajectoryProject\TrajectoryProject.cpp">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TrajectoryProject\TrajectoryProject.h">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TrajectoryProject\TrajectoryProjectCharacter.cpp">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TrajectoryProject\TrajectoryProjectCharacter.h">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TrajectoryProject\TrajectoryProjectGameMode.cpp">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TrajectoryProject\TrajectoryProjectGameMode.h">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TrajectoryProject\TrajectoryProjectHUD.cpp">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TrajectoryProject\TrajectoryProjectHUD.h">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TrajectoryProject\TrajectoryProjectProjectile.cpp">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TrajectoryProject\TrajectoryProjectProjectile.h">
+      <Filter>Source\TrajectoryProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

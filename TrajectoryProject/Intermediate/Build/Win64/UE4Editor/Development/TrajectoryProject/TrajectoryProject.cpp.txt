@@ -1,0 +1,2 @@
+D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\Definitions.TrajectoryProject.h
+D:\Unreal Projects\TrajectoryProject\Source\TrajectoryProject\TrajectoryProject.h
