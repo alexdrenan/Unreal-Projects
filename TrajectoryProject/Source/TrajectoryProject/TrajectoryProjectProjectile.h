@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "TrajectoryProjectProjectile.generated.h"
 
 class USphereComponent;
@@ -22,6 +23,8 @@ class ATrajectoryProjectProjectile : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 	UProjectileMovementComponent* ProjectileMovement;
 
+
+
 public:
 	ATrajectoryProjectProjectile();
 
@@ -33,5 +36,6 @@ public:
 	USphereComponent* GetCollisionComp() const { return CollisionComp; }
 	/** Returns ProjectileMovement subobject **/
 	UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
+	void SetProjectileSpeed(float f) { GetProjectileMovement()->InitialSpeed = f; }
 };
 

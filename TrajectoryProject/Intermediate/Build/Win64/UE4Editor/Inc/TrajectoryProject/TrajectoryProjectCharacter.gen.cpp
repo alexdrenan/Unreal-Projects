@@ -77,6 +77,10 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_projectileSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_projectileSpeed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
@@ -209,6 +213,13 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryProjectCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_projectileSpeed_MetaData[] = {
+		{ "Category", "TrajectoryProjectCharacter" },
+		{ "ModuleRelativePath", "TrajectoryProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_projectileSpeed = { "projectileSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryProjectCharacter, projectileSpeed), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_projectileSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_projectileSpeed_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */" },
@@ -276,6 +287,7 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_projectileSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_ProjectileClass,
@@ -310,7 +322,7 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrajectoryProjectCharacter, 504255355);
+	IMPLEMENT_CLASS(ATrajectoryProjectCharacter, 274199934);
 	template<> TRAJECTORYPROJECT_API UClass* StaticClass<ATrajectoryProjectCharacter>()
 	{
 		return ATrajectoryProjectCharacter::StaticClass();

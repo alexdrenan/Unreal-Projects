@@ -11,6 +11,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "DrawDebugHelpers.h"
+#include "Math/Vector.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -140,6 +142,7 @@ void ATrajectoryProjectCharacter::SetupPlayerInputComponent(class UInputComponen
 
 void ATrajectoryProjectCharacter::OnFire()
 {
+
 	// try and fire a projectile
 	if (ProjectileClass != nullptr)
 	{
@@ -161,6 +164,10 @@ void ATrajectoryProjectCharacter::OnFire()
 				//Set Spawn Collision Handling Override
 				FActorSpawnParameters ActorSpawnParams;
 				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+				ATrajectoryProjectProjectile* proj = ProjectileClass.GetDefaultObject();
+				proj->SetProjectileSpeed(projectileSpeed);
+
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<ATrajectoryProjectProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
