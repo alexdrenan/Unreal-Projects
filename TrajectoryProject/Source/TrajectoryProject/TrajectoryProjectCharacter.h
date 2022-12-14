@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/Actor.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "TrajectoryProjectCharacter.generated.h"
 
 class UInputComponent;
@@ -51,6 +53,15 @@ class ATrajectoryProjectCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	UMotionControllerComponent* L_MotionController;
 
+	UPROPERTY(EditAnywhere)
+		int precision = 5;
+	UPROPERTY(EditAnyWhere)
+		FVector NewPosition;
+	UPROPERTY(EditAnyWhere)
+		FVector PrevPosition;
+
+	//UPROPERTY(EditAnywhere)
+		//float InProjectileRadius = -1;
 public:
 	ATrajectoryProjectCharacter();
 
@@ -58,12 +69,15 @@ protected:
 	virtual void BeginPlay();
 
 public:
+
+	virtual void Tick(float DeltaTime) override;
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
 
 	UPROPERTY(EditAnywhere)
-		float projectileSpeed = 1.f;
+		float projectileSpeed = 1000.f;
 
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -147,5 +161,10 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+private:
+	//void LaunchProjectile();
+	void ShowProjectilePath();
+	void ChangeSpeed();
+	FVector Displacement(FVector velocity, float time, FVector acceleration);
 };
 

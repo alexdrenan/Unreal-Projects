@@ -12,6 +12,7 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStaticsTypes.h"
 #include "Math/Vector.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -85,7 +86,36 @@ ATrajectoryProjectCharacter::ATrajectoryProjectCharacter()
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
 }
+void ATrajectoryProjectCharacter::Tick(float DeltaTime) 
+{
+	Super::Tick(DeltaTime);
+	//FHitResult OutHit;
 
+	FVector Start = FP_Gun->GetComponentLocation();
+	FVector Forward = FirstPersonCameraComponent->GetForwardVector();
+	//FVector End = (Start + (Forward * 500.0f));
+
+	float lineDistance = 1000.0f;
+	float simulationLength = 3;
+	float max_time = 3.0;
+
+	for (int i = 0; i <= precision;i++)
+	{
+		//simulationLength += DeltaTime;
+		float timeAtIteration = i * (simulationLength / precision);
+		FVector Acceleration = FVector(0.0f, 0.0f, GetWorld()->GetGravityZ());
+
+		FVector displacement = Displacement(Start + Forward * projectileSpeed, timeAtIteration, Acceleration);
+
+		NewPosition = Start + displacement;
+
+		DrawDebugLine(GetWorld(), PrevPosition , NewPosition, FColor::Cyan, false, -1.0f, (uint8)0U, 2.0f);
+
+		PrevPosition = NewPosition;
+	}
+	//FCollisionQueryParams CollisionParams;
+	//DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+}
 void ATrajectoryProjectCharacter::BeginPlay()
 {
 	// Call the base class  
@@ -121,6 +151,10 @@ void ATrajectoryProjectCharacter::SetupPlayerInputComponent(class UInputComponen
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATrajectoryProjectCharacter::OnFire);
+	PlayerInputComponent->BindAction("ChangeSpeed", IE_Pressed, this, &ATrajectoryProjectCharacter::ChangeSpeed);
+
+	// projectile path
+	PlayerInputComponent->BindAction("LaunchProjectile", IE_Pressed, this, &ATrajectoryProjectCharacter::ShowProjectilePath);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
@@ -304,4 +338,47 @@ bool ATrajectoryProjectCharacter::EnableTouchscreenMovement(class UInputComponen
 	}
 	
 	return false;
+}
+
+/*void ATrajectoryProjectCharacter::LaunchProjectile()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("Launch Projectile"));
+
+}*/
+
+void ATrajectoryProjectCharacter::ShowProjectilePath()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, TEXT("Show Path"));
+
+}
+
+void ATrajectoryProjectCharacter::ChangeSpeed()
+{
+	projectileSpeed += 1000;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Speed increased"));
+
+	if (projectileSpeed >= 9000) 
+	{ 
+		projectileSpeed = 1000;
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Speed Reset"));
+	}
+	/*else if (projectileSpeed >= 500)
+	{ 
+		projectileSpeed += 5000; 
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("Speed Increased More"));
+	}
+	else if (projectileSpeed >= 5000)
+	{ 
+		projectileSpeed = 50; 
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Speed Reset"));
+	}*/
+}
+
+
+FVector ATrajectoryProjectCharacter::Displacement(FVector velocity, float time, FVector acceleration)
+{
+	//FVector Acceleration = FVector(0.0f, 0.0f, GetWorld()->GetGravityZ());
+	//FVector Forward = FirstPersonCameraComponent->GetForwardVector();
+
+	return velocity * time * 0.5f * acceleration * (time * time);
 }

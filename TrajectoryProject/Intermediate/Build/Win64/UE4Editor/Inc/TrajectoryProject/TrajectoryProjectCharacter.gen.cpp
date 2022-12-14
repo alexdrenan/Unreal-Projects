@@ -73,6 +73,18 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_L_MotionController;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_precision_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_precision;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewPosition_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NewPosition;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PrevPosition_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_PrevPosition;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
@@ -204,6 +216,27 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_L_MotionController = { "L_MotionController", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryProjectCharacter, L_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_L_MotionController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_L_MotionController_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_precision_MetaData[] = {
+		{ "Category", "TrajectoryProjectCharacter" },
+		{ "ModuleRelativePath", "TrajectoryProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_precision = { "precision", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryProjectCharacter, precision), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_precision_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_precision_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_NewPosition_MetaData[] = {
+		{ "Category", "TrajectoryProjectCharacter" },
+		{ "ModuleRelativePath", "TrajectoryProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_NewPosition = { "NewPosition", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryProjectCharacter, NewPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_NewPosition_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_NewPosition_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_PrevPosition_MetaData[] = {
+		{ "Category", "TrajectoryProjectCharacter" },
+		{ "ModuleRelativePath", "TrajectoryProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_PrevPosition = { "PrevPosition", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryProjectCharacter, PrevPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_PrevPosition_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_PrevPosition_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -286,6 +319,9 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_FirstPersonCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_L_MotionController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_precision,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_NewPosition,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_PrevPosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_projectileSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryProjectCharacter_Statics::NewProp_BaseLookUpRate,
@@ -322,7 +358,7 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrajectoryProjectCharacter, 274199934);
+	IMPLEMENT_CLASS(ATrajectoryProjectCharacter, 2675300842);
 	template<> TRAJECTORYPROJECT_API UClass* StaticClass<ATrajectoryProjectCharacter>()
 	{
 		return ATrajectoryProjectCharacter::StaticClass();

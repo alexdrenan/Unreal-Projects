@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TrajectoryProject-8746.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\TrajectoryProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProject.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectCharacter.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectGameMode.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectHUD.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectProjectile.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProject.init.gen.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectCharacter.gen.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectGameMode.gen.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectHUD.gen.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\TrajectoryProjectProjectile.gen.cpp.obj"
+"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\Default.rc2.res"
+/OUT:"D:\Unreal Projects\TrajectoryProject\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryProject\UE4Editor-TrajectoryProject-8746.lib"

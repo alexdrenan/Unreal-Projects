@@ -1,0 +1,17 @@
+D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\Definitions.Redo.h
+D:\Unreal Projects\Redo\Source\Redo\RedoHUD.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Inc\Redo\RedoHUD.generated.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h

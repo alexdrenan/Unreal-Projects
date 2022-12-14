@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\Redo\\Source\\Redo\\Redo.Build.cs",
+		"D:\\Unreal Projects\\Redo\\Source\\Redo.Target.cs",
+		"D:\\Unreal Projects\\Redo\\Source\\RedoEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

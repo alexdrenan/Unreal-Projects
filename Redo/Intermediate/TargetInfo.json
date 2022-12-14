@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Redo",
+			"Path": "D:\\Unreal Projects\\Redo\\Source\\Redo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RedoEditor",
+			"Path": "D:\\Unreal Projects\\Redo\\Source\\RedoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

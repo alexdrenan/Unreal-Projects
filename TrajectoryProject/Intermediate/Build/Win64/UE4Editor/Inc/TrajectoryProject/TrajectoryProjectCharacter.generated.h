@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TRAJECTORYPROJECT_TrajectoryProjectCharacter_generated_h
 
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_SPARSE_DATA
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_RPC_WRAPPERS
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_INCLASS_NO_PURE_DECLS \
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_SPARSE_DATA
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_RPC_WRAPPERS
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATrajectoryProjectCharacter(); \
 	friend struct Z_Construct_UClass_ATrajectoryProjectCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ATrajectoryProjectCharacter)
 
 
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_INCLASS \
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesATrajectoryProjectCharacter(); \
 	friend struct Z_Construct_UClass_ATrajectoryProjectCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ATrajectoryProjectCharacter)
 
 
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_STANDARD_CONSTRUCTORS \
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATrajectoryProjectCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATrajectoryProjectCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_ENHANCED_CONSTRUCTORS \
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATrajectoryProjectCharacter(ATrajectoryProjectCharacter&&); \
@@ -58,7 +58,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATrajectoryProjectCharacter)
 
 
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, Mesh1P); } \
 	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, FP_Gun); } \
 	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, FP_MuzzleLocation); } \
@@ -66,30 +66,33 @@ public: \
 	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, VR_MuzzleLocation); } \
 	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, FirstPersonCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, R_MotionController); } \
-	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, L_MotionController); }
+	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, L_MotionController); } \
+	FORCEINLINE static uint32 __PPO__precision() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, precision); } \
+	FORCEINLINE static uint32 __PPO__NewPosition() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, NewPosition); } \
+	FORCEINLINE static uint32 __PPO__PrevPosition() { return STRUCT_OFFSET(ATrajectoryProjectCharacter, PrevPosition); }
 
 
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_17_PROLOG
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_GENERATED_BODY_LEGACY \
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_19_PROLOG
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_SPARSE_DATA \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_RPC_WRAPPERS \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_INCLASS \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_STANDARD_CONSTRUCTORS \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_SPARSE_DATA \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_RPC_WRAPPERS \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_INCLASS \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_GENERATED_BODY \
+#define TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_SPARSE_DATA \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_INCLASS_NO_PURE_DECLS \
-	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_20_ENHANCED_CONSTRUCTORS \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_SPARSE_DATA \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_INCLASS_NO_PURE_DECLS \
+	TrajectoryProject_Source_TrajectoryProject_TrajectoryProjectCharacter_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
