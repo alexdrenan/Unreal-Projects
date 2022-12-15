@@ -92,18 +92,18 @@ void ARedoCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	FHitResult OutHit;
 
-	FVector Start = FP_MuzzleLocation->GetComponentLocation();
-	FVector Forward = FirstPersonCameraComponent->GetForwardVector();
+	FVector Start = FP_Gun->GetComponentLocation();
+	FVector Forward = FP_Gun->GetRightVector();
 	FVector End = (Start + (Forward * 500.0f));
 
 	float lineDistance = 1000.0f;
-	float simulationLength = 3;
+	float simulationLength = 1;
 	//float max_time = 3.0;
 
 	for (int i = 0; i <= precision; i++)
 	{
 		float time = i * (simulationLength / precision);
-		time += DeltaTime;
+		//time += DeltaTime;
 		FVector Acceleration = FVector(0.0f, 0.0f, GetWorld()->GetGravityZ());
 
 		FVector displacement = Displacement(Forward * projectileSpeed, time, Acceleration);
@@ -360,5 +360,5 @@ void ARedoCharacter::ChangeSpeed()
 
 FVector ARedoCharacter::Displacement(FVector velocity, float time, FVector acceleration)
 {
-	return velocity * time * 0.5f * acceleration * (time * time);
+	return velocity * time + 0.5f * acceleration * (time * time);
 }

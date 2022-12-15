@@ -2343,3 +2343,755 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.12.14-23.54.26:909][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.12.14-23.54.26:929][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
 [2022.12.14-23.54.27:423][545]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.12.14-23.59.56:908][955]Candidate modules for hot reload:
+[2022.12.14-23.59.56:908][955]  Redo
+[2022.12.14-23.59.56:908][955]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,2476 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.14-23.59.56:913][955]Warning: Starting HotReload took  0.1s.
+[2022.12.15-00.05.50:910][118]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:05:50 PM
+[2022.12.15-00.05.50:910][118]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.05.50:910][118]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.05.50:910][118]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.05.50:910][118]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.12.15-00.05.50:910][118]CompilerResultsLog:   [1/4] RedoCharacter.cpp
+[2022.12.15-00.05.50:910][118]CompilerResultsLog:   [2/4] UE4Editor-Redo-2476.lib
+[2022.12.15-00.05.50:910][118]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2476.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2476.exp
+[2022.12.15-00.05.50:910][118]CompilerResultsLog:   [3/4] UE4Editor-Redo-2476.dll
+[2022.12.15-00.05.50:910][118]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2476.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2476.suppressed.exp
+[2022.12.15-00.05.50:910][118]CompilerResultsLog:   [4/4] RedoEditor.target
+[2022.12.15-00.05.50:910][118]CompilerResultsLog: Total time in Parallel executor: 349.29 seconds
+[2022.12.15-00.05.50:910][118]CompilerResultsLog: Total execution time: 352.99 seconds
+[2022.12.15-00.05.50:910][118]LogMainFrame: MainFrame: Module compiling took 354.008 seconds
+[2022.12.15-00.05.51:546][118]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.05.51:553][118]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.05.51:634][118]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0101 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.05.51:635][118]Display: HotReload took 354.8s.
+[2022.12.15-00.05.55:982][131]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.05.55:987][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.05.55:987][131]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:05:55 PM)
+[2022.12.15-00.05.55:988][131]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.05.56:000][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011968s)
+[2022.12.15-00.05.56:002][131]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.05.56:002][131]LogPlayLevel: PIE: World Init took: (0.002276s)
+[2022.12.15-00.05.56:002][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014408s)
+[2022.12.15-00.05.56:065][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.12.15-00.05.56:067][131]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.12.15-00.05.56:068][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.05.56:068][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.05.56:068][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.05.56:068][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.05.56:068][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.05.56:068][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.05.56:068][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.05.56:068][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.05.56:069][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.05.56:069][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.05.56:069][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.05.56:069][131]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.05.56:091][131]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.05.56:091][131]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.05.56:101][131]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.05.56:102][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.05.56:102][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.05.56:102][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.05.56:102][131]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.05.56:102][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.05.56:102][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.05.56:105][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.05.56:105][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.05.56:105][131]LogInit: FAudioDevice initialized.
+[2022.12.15-00.05.56:105][131]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.05.56:115][131]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.05.56:118][131]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.05.56
+[2022.12.15-00.05.56:118][131]LogWorld: Bringing up level for play took: 0.002379
+[2022.12.15-00.05.56:119][131]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.12.15-00.05.56:122][131]PIE: Server logged in
+[2022.12.15-00.05.56:123][131]PIE: Play in editor total start time 0.136 seconds.
+[2022.12.15-00.06.05:810][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.06.05:810][235]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.06.05:810][235]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.06.05:810][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.06.05:823][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.06.05:831][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.06.05:848][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.06.05:848][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.06.05:850][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.06.05:853][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.06.05:879][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.12.15-00.06.05:913][236]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.12.15-00.06.39:115][537]Candidate modules for hot reload:
+[2022.12.15-00.06.39:115][537]  Redo
+[2022.12.15-00.06.39:115][537]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,2007 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.06.39:118][537]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.06.45:741][100]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:06:45 PM
+[2022.12.15-00.06.45:741][100]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.06.45:741][100]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.06.45:741][100]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.06.45:741][100]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.12.15-00.06.45:741][100]CompilerResultsLog:   [1/4] RedoCharacter.cpp
+[2022.12.15-00.06.45:741][100]CompilerResultsLog:   [2/4] UE4Editor-Redo-2007.lib
+[2022.12.15-00.06.45:741][100]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2007.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2007.exp
+[2022.12.15-00.06.45:741][100]CompilerResultsLog:   [3/4] UE4Editor-Redo-2007.dll
+[2022.12.15-00.06.45:741][100]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2007.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2007.suppressed.exp
+[2022.12.15-00.06.45:741][100]CompilerResultsLog:   [4/4] RedoEditor.target
+[2022.12.15-00.06.45:741][100]CompilerResultsLog: Total time in Parallel executor: 5.42 seconds
+[2022.12.15-00.06.45:741][100]CompilerResultsLog: Total execution time: 6.45 seconds
+[2022.12.15-00.06.45:741][100]LogMainFrame: MainFrame: Module compiling took 6.630 seconds
+[2022.12.15-00.06.45:779][100]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.06.45:784][100]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.06.45:863][100]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0096 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.06.45:863][100]Display: HotReload took  6.8s.
+[2022.12.15-00.06.49:671][181]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.06.49:677][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.06.49:677][181]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:06:49 PM)
+[2022.12.15-00.06.49:719][181]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.06.49:732][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013539s)
+[2022.12.15-00.06.49:733][181]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.06.49:734][181]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2022.12.15-00.06.49:734][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015000s)
+[2022.12.15-00.06.49:798][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.12.15-00.06.49:799][181]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.12.15-00.06.49:799][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.06.49:799][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.06.49:799][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.06.49:799][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.06.49:799][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.06.49:800][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.06.49:800][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.06.49:800][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.06.49:800][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.06.49:800][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.06.49:800][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.06.49:800][181]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.06.49:803][181]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.06.49:803][181]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.06.49:813][181]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.06.49:813][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.06.49:813][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.06.49:813][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.06.49:814][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.06.49:814][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.06.49:814][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.06.49:815][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.06.49:815][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.06.49:815][181]LogInit: FAudioDevice initialized.
+[2022.12.15-00.06.49:815][181]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.06.49:825][181]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.06.49:827][181]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.06.49
+[2022.12.15-00.06.49:828][181]LogWorld: Bringing up level for play took: 0.001730
+[2022.12.15-00.06.49:828][181]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.12.15-00.06.49:830][181]PIE: Server logged in
+[2022.12.15-00.06.49:831][181]PIE: Play in editor total start time 0.156 seconds.
+[2022.12.15-00.07.31:140][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.07.31:140][103]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.07.31:140][103]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.07.31:140][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.07.31:149][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.07.31:157][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.07.31:171][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.07.31:172][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.07.31:173][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.07.31:178][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.12.15-00.07.31:211][104]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.12.15-00.08.43:614][606]Candidate modules for hot reload:
+[2022.12.15-00.08.43:614][606]  Redo
+[2022.12.15-00.08.43:614][606]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,4695 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.08.43:617][606]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.08.48:796][119]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:08:48 PM
+[2022.12.15-00.08.48:796][119]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.08.48:796][119]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.08.48:796][119]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.08.48:796][119]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.12.15-00.08.48:796][119]CompilerResultsLog:   [1/4] RedoCharacter.cpp
+[2022.12.15-00.08.48:796][119]CompilerResultsLog:   [2/4] UE4Editor-Redo-4695.lib
+[2022.12.15-00.08.48:796][119]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-4695.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-4695.exp
+[2022.12.15-00.08.48:796][119]CompilerResultsLog:   [3/4] UE4Editor-Redo-4695.dll
+[2022.12.15-00.08.48:796][119]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-4695.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-4695.suppressed.exp
+[2022.12.15-00.08.48:796][119]CompilerResultsLog:   [4/4] RedoEditor.target
+[2022.12.15-00.08.48:796][119]CompilerResultsLog: Total time in Parallel executor: 3.94 seconds
+[2022.12.15-00.08.48:796][119]CompilerResultsLog: Total execution time: 5.10 seconds
+[2022.12.15-00.08.48:796][119]LogMainFrame: MainFrame: Module compiling took 5.186 seconds
+[2022.12.15-00.08.48:831][119]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.08.48:836][119]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.08.48:911][119]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.08.48:911][119]Display: HotReload took  5.3s.
+[2022.12.15-00.08.50:917][301]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.08.50:922][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.08.50:922][301]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:08:50 PM)
+[2022.12.15-00.08.50:934][301]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.08.50:947][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012393s)
+[2022.12.15-00.08.50:948][301]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.08.50:948][301]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2022.12.15-00.08.50:948][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013735s)
+[2022.12.15-00.08.51:008][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.12.15-00.08.51:009][301]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.12.15-00.08.51:009][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.08.51:009][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.08.51:009][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.08.51:009][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.08.51:009][301]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.08.51:009][301]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.08.51:009][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.08.51:009][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.08.51:010][301]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.08.51:010][301]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.08.51:010][301]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.08.51:010][301]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.08.51:013][301]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.08.51:013][301]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.08.51:022][301]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.08.51:023][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.08.51:023][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.08.51:023][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.08.51:023][301]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.08.51:023][301]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.08.51:023][301]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.08.51:024][301]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.08.51:024][301]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.08.51:024][301]LogInit: FAudioDevice initialized.
+[2022.12.15-00.08.51:024][301]LogAudio: Display: Audio Device (ID: 22) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.08.51:033][301]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.08.51:035][301]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.08.51
+[2022.12.15-00.08.51:035][301]LogWorld: Bringing up level for play took: 0.001516
+[2022.12.15-00.08.51:036][301]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.12.15-00.08.51:038][301]PIE: Server logged in
+[2022.12.15-00.08.51:038][301]PIE: Play in editor total start time 0.117 seconds.
+[2022.12.15-00.09.22:769][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.22:769][837]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.09.22:770][837]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.09.22:770][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.22:779][837]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.09.22:788][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.22:803][837]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.09.22:810][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.09.22:811][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.09.22:814][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.22:834][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.12.15-00.09.23:341][838]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.12.15-00.09.25:036][992]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.09.25:040][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.09.25:040][992]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:09:25 PM)
+[2022.12.15-00.09.25:040][992]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.09.25:054][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013052s)
+[2022.12.15-00.09.25:054][992]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.09.25:055][992]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2022.12.15-00.09.25:055][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014381s)
+[2022.12.15-00.09.25:076][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.12.15-00.09.25:078][992]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.09.25:078][992]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.09.25:078][992]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.09.25:078][992]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.09.25:078][992]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.09.25:078][992]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.09.25:082][992]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.09.25:082][992]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.09.25:091][992]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.09.25:091][992]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.09.25:091][992]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.09.25:091][992]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.09.25:092][992]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.09.25:092][992]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.09.25:092][992]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.09.25:093][992]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.09.25:093][992]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.09.25:093][992]LogInit: FAudioDevice initialized.
+[2022.12.15-00.09.25:093][992]LogAudio: Display: Audio Device (ID: 23) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.09.25:102][992]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.09.25:103][992]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.09.25
+[2022.12.15-00.09.25:104][992]LogWorld: Bringing up level for play took: 0.001374
+[2022.12.15-00.09.25:104][992]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.12.15-00.09.25:106][992]PIE: Server logged in
+[2022.12.15-00.09.25:107][992]PIE: Play in editor total start time 0.067 seconds.
+[2022.12.15-00.09.39:730][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.39:730][735]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.09.39:730][735]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.09.39:730][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.39:737][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.09.39:744][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.39:761][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.39:761][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.09.39:762][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.09.39:767][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.12.15-00.09.39:800][736]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.12.15-00.10.19:824][501]Candidate modules for hot reload:
+[2022.12.15-00.10.19:824][501]  Redo
+[2022.12.15-00.10.19:824][501]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,8811 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.10.19:826][501]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.10.25:760][130]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:10:25 PM
+[2022.12.15-00.10.25:760][130]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.10.25:760][130]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.10.25:760][130]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.10.25:760][130]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.12.15-00.10.25:760][130]CompilerResultsLog:   [1/4] RedoCharacter.cpp
+[2022.12.15-00.10.25:760][130]CompilerResultsLog:   [2/4] UE4Editor-Redo-8811.lib
+[2022.12.15-00.10.25:760][130]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8811.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8811.exp
+[2022.12.15-00.10.25:760][130]CompilerResultsLog:   [3/4] UE4Editor-Redo-8811.dll
+[2022.12.15-00.10.25:760][130]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8811.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8811.suppressed.exp
+[2022.12.15-00.10.25:760][130]CompilerResultsLog:   [4/4] RedoEditor.target
+[2022.12.15-00.10.25:760][130]CompilerResultsLog: Total time in Parallel executor: 4.92 seconds
+[2022.12.15-00.10.25:760][130]CompilerResultsLog: Total execution time: 5.86 seconds
+[2022.12.15-00.10.25:760][130]LogMainFrame: MainFrame: Module compiling took 5.940 seconds
+[2022.12.15-00.10.25:796][130]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.10.25:801][130]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.10.25:875][130]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0089 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.10.25:875][130]Display: HotReload took  6.1s.
+[2022.12.15-00.10.27:668][289]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.10.27:673][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.10.27:674][289]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:10:27 PM)
+[2022.12.15-00.10.27:674][289]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.10.27:684][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010721s)
+[2022.12.15-00.10.27:685][289]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.10.27:685][289]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2022.12.15-00.10.27:685][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011763s)
+[2022.12.15-00.10.27:745][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.12.15-00.10.27:747][289]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.10.27:747][289]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.10.27:747][289]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.10.27:747][289]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.10.27:747][289]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.10.27:747][289]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.10.27:751][289]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.10.27:751][289]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.10.27:760][289]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.10.27:760][289]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.10.27:760][289]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.10.27:760][289]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.10.27:760][289]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.10.27:760][289]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.10.27:760][289]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.10.27:762][289]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.10.27:762][289]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.10.27:762][289]LogInit: FAudioDevice initialized.
+[2022.12.15-00.10.27:762][289]LogAudio: Display: Audio Device (ID: 24) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.10.27:773][289]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.10.27:775][289]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.10.27
+[2022.12.15-00.10.27:775][289]LogWorld: Bringing up level for play took: 0.001407
+[2022.12.15-00.10.27:775][289]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.12.15-00.10.27:777][289]PIE: Server logged in
+[2022.12.15-00.10.27:778][289]PIE: Play in editor total start time 0.105 seconds.
+[2022.12.15-00.10.39:590][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.10.39:590][430]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.10.39:590][430]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.10.39:590][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.10.39:596][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.10.39:604][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.10.39:620][430]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.10.39:626][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.10.39:627][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.10.39:629][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.10.39:648][430]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.12.15-00.10.40:142][431]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.12.15-00.11.16:573][780]Candidate modules for hot reload:
+[2022.12.15-00.11.16:573][780]  Redo
+[2022.12.15-00.11.16:573][780]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,7119 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.11.16:575][780]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.11.20:586][926]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:11:20 PM
+[2022.12.15-00.11.20:586][926]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.11.20:586][926]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.11.20:586][926]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.11.20:586][926]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.12.15-00.11.20:586][926]CompilerResultsLog:   [1/4] RedoCharacter.cpp
+[2022.12.15-00.11.20:586][926]CompilerResultsLog:   [2/4] UE4Editor-Redo-7119.lib
+[2022.12.15-00.11.20:586][926]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7119.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7119.exp
+[2022.12.15-00.11.20:586][926]CompilerResultsLog:   [3/4] UE4Editor-Redo-7119.dll
+[2022.12.15-00.11.20:586][926]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7119.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7119.suppressed.exp
+[2022.12.15-00.11.20:586][926]CompilerResultsLog:   [4/4] RedoEditor.target
+[2022.12.15-00.11.20:586][926]CompilerResultsLog: Total time in Parallel executor: 2.54 seconds
+[2022.12.15-00.11.20:586][926]CompilerResultsLog: Total execution time: 3.65 seconds
+[2022.12.15-00.11.20:586][926]LogMainFrame: MainFrame: Module compiling took 4.016 seconds
+[2022.12.15-00.11.20:622][926]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.11.20:627][926]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.11.20:702][926]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.11.20:702][926]Display: HotReload took  4.1s.
+[2022.12.15-00.11.24:263][936]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.11.24:268][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.11.24:268][936]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:11:24 PM)
+[2022.12.15-00.11.24:268][936]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.11.24:279][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011170s)
+[2022.12.15-00.11.24:280][936]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.11.24:281][936]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2022.12.15-00.11.24:281][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012368s)
+[2022.12.15-00.11.24:340][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.12.15-00.11.24:341][936]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.12.15-00.11.24:341][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.11.24:341][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.11.24:341][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.11.24:341][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.11.24:341][936]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.11.24:341][936]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.11.24:341][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.11.24:341][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.11.24:342][936]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.11.24:342][936]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.11.24:342][936]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.11.24:342][936]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.11.24:346][936]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.11.24:346][936]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.11.24:354][936]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.11.24:355][936]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.11.24:355][936]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.11.24:355][936]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.11.24:355][936]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.11.24:355][936]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.11.24:355][936]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.11.24:356][936]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.11.24:356][936]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.11.24:356][936]LogInit: FAudioDevice initialized.
+[2022.12.15-00.11.24:356][936]LogAudio: Display: Audio Device (ID: 25) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.11.24:363][936]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.11.24:365][936]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.11.24
+[2022.12.15-00.11.24:365][936]LogWorld: Bringing up level for play took: 0.001438
+[2022.12.15-00.11.24:366][936]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.12.15-00.11.24:367][936]PIE: Server logged in
+[2022.12.15-00.11.24:368][936]PIE: Play in editor total start time 0.101 seconds.
+[2022.12.15-00.11.49:120][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.11.49:120][541]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.11.49:120][541]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.11.49:121][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.11.49:126][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.11.49:136][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.11.49:151][541]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.11.49:152][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.11.49:153][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.11.49:155][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.11.49:182][541]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.12.15-00.11.49:674][542]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.12.15-00.12.19:732][758]Candidate modules for hot reload:
+[2022.12.15-00.12.19:732][758]  Redo
+[2022.12.15-00.12.19:732][758]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,8637 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.12.19:735][758]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.12.24:213][185]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:12:24 PM
+[2022.12.15-00.12.24:213][185]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.12.24:213][185]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.12.24:213][185]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.12.24:213][185]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.12.15-00.12.24:213][185]CompilerResultsLog:   [1/4] RedoCharacter.cpp
+[2022.12.15-00.12.24:213][185]CompilerResultsLog:   [2/4] UE4Editor-Redo-8637.lib
+[2022.12.15-00.12.24:214][185]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8637.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8637.exp
+[2022.12.15-00.12.24:214][185]CompilerResultsLog:   [3/4] UE4Editor-Redo-8637.dll
+[2022.12.15-00.12.24:214][185]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8637.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-8637.suppressed.exp
+[2022.12.15-00.12.24:214][185]CompilerResultsLog:   [4/4] RedoEditor.target
+[2022.12.15-00.12.24:214][185]CompilerResultsLog: Total time in Parallel executor: 3.35 seconds
+[2022.12.15-00.12.24:214][185]CompilerResultsLog: Total execution time: 4.40 seconds
+[2022.12.15-00.12.24:214][185]LogMainFrame: MainFrame: Module compiling took 4.486 seconds
+[2022.12.15-00.12.24:254][185]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.12.24:259][185]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.12.24:334][185]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0091 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.12.24:334][185]Display: HotReload took  4.6s.
+[2022.12.15-00.12.25:292][247]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.12.25:296][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.12.25:296][247]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:12:25 PM)
+[2022.12.15-00.12.25:296][247]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.12.25:307][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010990s)
+[2022.12.15-00.12.25:308][247]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.12.25:309][247]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2022.12.15-00.12.25:309][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012390s)
+[2022.12.15-00.12.25:366][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.12.15-00.12.25:367][247]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.12.15-00.12.25:367][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.12.25:367][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.12.25:367][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.12.25:367][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.12.25:367][247]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.12.25:367][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.12.25:367][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.12.25:367][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.12.25:368][247]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.12.25:368][247]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.12.25:368][247]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.12.25:368][247]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.12.25:372][247]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.12.25:372][247]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.12.25:380][247]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.12.25:381][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.12.25:381][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.12.25:381][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.12.25:381][247]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.12.25:381][247]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.12.25:381][247]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.12.25:383][247]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.12.25:383][247]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.12.25:383][247]LogInit: FAudioDevice initialized.
+[2022.12.15-00.12.25:383][247]LogAudio: Display: Audio Device (ID: 26) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.12.25:392][247]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.12.25:394][247]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.12.25
+[2022.12.15-00.12.25:395][247]LogWorld: Bringing up level for play took: 0.001459
+[2022.12.15-00.12.25:395][247]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.12.15-00.12.25:397][247]PIE: Server logged in
+[2022.12.15-00.12.25:397][247]PIE: Play in editor total start time 0.102 seconds.
+[2022.12.15-00.16.35:665][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.16.35:665][677]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.16.35:665][677]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.16.35:666][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.16.35:675][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.16.35:685][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.16.35:702][677]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.16.35:702][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.16.35:703][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.16.35:706][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.16.35:710][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.12.15-00.16.36:221][678]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.12.15-00.16.36:467][680]Candidate modules for hot reload:
+[2022.12.15-00.16.36:467][680]  Redo
+[2022.12.15-00.16.36:467][680]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,7275 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.16.36:470][680]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.16.38:875][846]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:17:37 PM
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Parsing headers for RedoEditor
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\Redo\Redo.uproject" "D:\Unreal Projects\Redo\Intermediate\Build\Win64\RedoEditor\Development\RedoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alexd\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Reflection code generated for RedoEditor in 21.4176711 seconds
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Building 7 actions with 6 processes...
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   [1/7] RedoCharacter.cpp
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   [2/7] RedoProjectile.cpp
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   [3/7] RedoGameMode.cpp
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   [4/7] RedoCharacter.gen.cpp
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   [5/7] UE4Editor-Redo-7275.lib
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7275.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7275.exp
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   [6/7] UE4Editor-Redo-7275.dll
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7275.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7275.suppressed.exp
+[2022.12.15-00.17.37:785][544]CompilerResultsLog:   [7/7] RedoEditor.target
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Total time in Parallel executor: 38.71 seconds
+[2022.12.15-00.17.37:785][544]CompilerResultsLog: Total execution time: 61.11 seconds
+[2022.12.15-00.17.37:785][544]LogMainFrame: MainFrame: Module compiling took 61.323 seconds
+[2022.12.15-00.17.37:819][544]LogHotReload: Re-instancing RedoCharacter after hot-reload.
+[2022.12.15-00.17.37:855][544]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.17.37:860][544]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.17.37:944][544]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0115 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.17.37:944][544]Display: HotReload took 61.5s.
+[2022.12.15-00.17.43:134][559]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.17.43:138][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.17.43:138][559]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:17:43 PM)
+[2022.12.15-00.17.43:139][559]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.17.43:151][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012059s)
+[2022.12.15-00.17.43:152][559]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.17.43:152][559]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2022.12.15-00.17.43:152][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013216s)
+[2022.12.15-00.17.43:215][559]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2022.12.15-00.17.43:217][559]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.12.15-00.17.43:217][559]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.17.43:218][559]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.17.43:218][559]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.17.43:218][559]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.17.43:218][559]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.17.43:218][559]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.17.43:218][559]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.17.43:218][559]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.17.43:218][559]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.17.43:218][559]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.17.43:218][559]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.17.43:218][559]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.17.43:222][559]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.17.43:222][559]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.17.43:231][559]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.17.43:232][559]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.17.43:232][559]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.17.43:232][559]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.17.43:232][559]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.17.43:232][559]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.17.43:232][559]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.17.43:234][559]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.17.43:234][559]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.17.43:234][559]LogInit: FAudioDevice initialized.
+[2022.12.15-00.17.43:234][559]LogAudio: Display: Audio Device (ID: 27) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.17.43:240][559]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.17.43:242][559]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.17.43
+[2022.12.15-00.17.43:242][559]LogWorld: Bringing up level for play took: 0.001437
+[2022.12.15-00.17.43:242][559]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.12.15-00.17.43:244][559]PIE: Server logged in
+[2022.12.15-00.17.43:245][559]PIE: Play in editor total start time 0.107 seconds.
+[2022.12.15-00.18.32:070][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.18.32:070][380]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.18.32:070][380]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.18.32:070][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.18.32:081][380]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.18.32:089][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.18.32:104][380]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.18.32:104][380]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.18.32:105][380]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.18.32:107][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.18.32:110][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.12.15-00.18.32:145][381]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.12.15-00.19.06:110][741]Candidate modules for hot reload:
+[2022.12.15-00.19.06:110][741]  Redo
+[2022.12.15-00.19.06:110][741]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,2575 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.19.06:112][741]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.19.18:939][985]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:19:18 PM
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Parsing headers for RedoEditor
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\Redo\Redo.uproject" "D:\Unreal Projects\Redo\Intermediate\Build\Win64\RedoEditor\Development\RedoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alexd\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Reflection code generated for RedoEditor in 6.1424076 seconds
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Building 7 actions with 6 processes...
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   [1/7] RedoProjectile.cpp
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   [2/7] RedoCharacter.gen.cpp
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   [3/7] RedoGameMode.cpp
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   [4/7] RedoCharacter.cpp
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   [5/7] UE4Editor-Redo-2575.lib
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2575.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2575.exp
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   [6/7] UE4Editor-Redo-2575.dll
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2575.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-2575.suppressed.exp
+[2022.12.15-00.19.18:940][985]CompilerResultsLog:   [7/7] RedoEditor.target
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Total time in Parallel executor: 5.33 seconds
+[2022.12.15-00.19.18:940][985]CompilerResultsLog: Total execution time: 12.74 seconds
+[2022.12.15-00.19.18:940][985]LogMainFrame: MainFrame: Module compiling took 12.833 seconds
+[2022.12.15-00.19.18:979][985]LogHotReload: Re-instancing RedoCharacter after hot-reload.
+[2022.12.15-00.19.19:016][985]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.19.19:022][985]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.19.19:107][985]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0104 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.19.19:107][985]Display: HotReload took 13.0s.
+[2022.12.15-00.19.20:860][131]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.19.20:865][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.19.20:865][131]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:19:20 PM)
+[2022.12.15-00.19.20:898][131]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.19.20:912][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013306s)
+[2022.12.15-00.19.20:914][131]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.19.20:914][131]LogPlayLevel: PIE: World Init took: (0.002250s)
+[2022.12.15-00.19.20:914][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015813s)
+[2022.12.15-00.19.20:978][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.12.15-00.19.20:979][131]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.19.20:980][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.19.20:980][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.19.20:980][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.19.20:980][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.19.20:980][131]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.19.20:984][131]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.19.20:984][131]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.19.20:993][131]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.19.20:994][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.19.20:994][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.19.20:994][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.19.20:994][131]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.19.20:994][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.19.20:994][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.19.20:995][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.19.20:995][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.19.20:995][131]LogInit: FAudioDevice initialized.
+[2022.12.15-00.19.20:996][131]LogAudio: Display: Audio Device (ID: 28) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.19.21:009][131]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.19.21:011][131]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.19.21
+[2022.12.15-00.19.21:012][131]LogWorld: Bringing up level for play took: 0.001506
+[2022.12.15-00.19.21:012][131]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.12.15-00.19.21:014][131]PIE: Server logged in
+[2022.12.15-00.19.21:015][131]PIE: Play in editor total start time 0.152 seconds.
+[2022.12.15-00.19.30:419][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.19.30:419][226]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.19.30:419][226]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.19.30:420][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.19.30:431][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.19.30:440][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.19.30:455][226]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.19.30:455][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.19.30:456][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.19.30:458][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.19.30:484][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.12.15-00.19.30:530][227]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.12.15-00.19.54:337][807]Candidate modules for hot reload:
+[2022.12.15-00.19.54:337][807]  Redo
+[2022.12.15-00.19.54:338][807]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Redo,3349 RedoEditor Win64 Development -Project="D:/Unreal Projects/Redo/Redo.uproject" "D:/Unreal Projects/Redo/Redo.uproject"  -IgnoreJunk]
+[2022.12.15-00.19.54:340][807]Warning: Starting HotReload took  0.0s.
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: New page: Compilation - Dec 14, 2022, 12:20:03 PM
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects).
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Parsing headers for RedoEditor
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\Redo\Redo.uproject" "D:\Unreal Projects\Redo\Intermediate\Build\Win64\RedoEditor\Development\RedoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\alexd\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Reflection code generated for RedoEditor in 4.9880827 seconds
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Building RedoEditor...
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Building 7 actions with 6 processes...
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   [1/7] RedoProjectile.cpp
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   [2/7] RedoGameMode.cpp
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   [3/7] RedoCharacter.gen.cpp
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   [4/7] RedoCharacter.cpp
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   [5/7] UE4Editor-Redo-3349.lib
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-3349.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-3349.exp
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   [6/7] UE4Editor-Redo-3349.dll
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:      Creating library D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-3349.suppressed.lib and object D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-3349.suppressed.exp
+[2022.12.15-00.20.03:932][963]CompilerResultsLog:   [7/7] RedoEditor.target
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Total time in Parallel executor: 2.93 seconds
+[2022.12.15-00.20.03:932][963]CompilerResultsLog: Total execution time: 9.20 seconds
+[2022.12.15-00.20.03:932][963]LogMainFrame: MainFrame: Module compiling took 9.599 seconds
+[2022.12.15-00.20.03:968][963]LogHotReload: Re-instancing RedoCharacter after hot-reload.
+[2022.12.15-00.20.04:013][963]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Redo' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.12.15-00.20.04:019][963]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.12.15-00.20.04:109][963]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0104 seconds. Added 3826 classes and 930 folders.
+[2022.12.15-00.20.04:109][963]Display: HotReload took  9.8s.
+[2022.12.15-00.20.08:071][ 34]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.15-00.20.08:076][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.20.08:076][ 34]PIE: New page: PIE session: FirstPersonExampleMap (Dec 14, 2022, 12:20:08 PM)
+[2022.12.15-00.20.08:109][ 34]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.20.08:124][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015981s)
+[2022.12.15-00.20.08:125][ 34]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.12.15-00.20.08:125][ 34]LogPlayLevel: PIE: World Init took: (0.001490s)
+[2022.12.15-00.20.08:126][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017715s)
+[2022.12.15-00.20.08:205][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2022.12.15-00.20.08:207][ 34]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2022.12.15-00.20.08:207][ 34]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.20.08:207][ 34]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.20.08:207][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.20.08:207][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.20.08:207][ 34]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.20.08:207][ 34]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.15-00.20.08:207][ 34]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.20.08:207][ 34]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.20.08:208][ 34]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.20.08:208][ 34]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.20.08:208][ 34]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.20.08:208][ 34]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.15-00.20.08:212][ 34]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.15-00.20.08:212][ 34]LogAudioMixer: Display: 1: FrontRight
+[2022.12.15-00.20.08:222][ 34]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.12.15-00.20.08:223][ 34]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.20.08:223][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.20.08:223][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.20.08:223][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.15-00.20.08:223][ 34]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.15-00.20.08:223][ 34]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.15-00.20.08:225][ 34]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.15-00.20.08:225][ 34]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.15-00.20.08:225][ 34]LogInit: FAudioDevice initialized.
+[2022.12.15-00.20.08:225][ 34]LogAudio: Display: Audio Device (ID: 29) registered with world 'FirstPersonExampleMap'.
+[2022.12.15-00.20.08:233][ 34]LogLoad: Game class is 'RedoGameMode'
+[2022.12.15-00.20.08:235][ 34]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.12.14-18.20.08
+[2022.12.15-00.20.08:235][ 34]LogWorld: Bringing up level for play took: 0.001747
+[2022.12.15-00.20.08:236][ 34]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2022.12.15-00.20.08:239][ 34]PIE: Server logged in
+[2022.12.15-00.20.08:240][ 34]PIE: Play in editor total start time 0.165 seconds.
+[2022.12.15-00.20.15:199][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.20.15:199][851]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.12.15-00.20.15:199][851]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.20.15:199][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.20.15:205][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.20.15:213][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.20.15:227][851]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.20.15:233][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.20.15:235][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.15-00.20.15:237][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.20.15:258][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.12.15-00.20.15:334][852]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.12.15-00.21.24:820][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms

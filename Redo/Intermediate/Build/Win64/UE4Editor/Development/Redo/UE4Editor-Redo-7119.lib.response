@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Redo-7119.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\RedoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\Redo.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoCharacter.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoGameMode.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoHUD.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoProjectile.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\Redo.init.gen.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoCharacter.gen.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoGameMode.gen.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoHUD.gen.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\RedoProjectile.gen.cpp.obj"
+"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Redo\Intermediate\Build\Win64\UE4Editor\Development\Redo\UE4Editor-Redo-7119.lib"

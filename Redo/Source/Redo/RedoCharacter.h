@@ -54,7 +54,7 @@ class ARedoCharacter : public ACharacter
 	UMotionControllerComponent* L_MotionController;
 
 	UPROPERTY(EditAnywhere)
-		int precision = 5;
+		int precision = 10;
 	UPROPERTY(EditAnyWhere)
 		FVector NewPos;
 	UPROPERTY(EditAnyWhere)
